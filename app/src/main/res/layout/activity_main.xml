@@ -20,9 +20,9 @@
                 android:id="@+id/press_button"
                 android:textColor="@android:color/black"
                 android:text="Press"
-                android:padding="80px"
                 android:background="@android:color/holo_purple"
-                android:paddingBottom="20px">
+                android:paddingBottom="20px"
+                style="?selectableItemBackground">
             </Button>
             <TextView
                 android:layout_width="wrap_content"
@@ -36,9 +36,39 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/press_f">
-
+                android:id="@+id/press_f"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="one more"
+                android:background="@color/colorAccent">
             </Button>
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90px">
+                <TextView
+                    android:id="@+id/id_cad_details_dialog_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/abc_vector_test"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:text="TextView">
+                </TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:background="@drawable/roundshapebtn">
+
+                </Button>
+            </TableRow>
+            </TableLayout>
         </LinearLayout>
     </ScrollView>
 

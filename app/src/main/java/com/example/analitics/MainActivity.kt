@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.press_button)
 
-        press_button.setOnClickListener {
+        press_f.setOnClickListener {
             enter.text = "count: ${++counter}"
 
         }
